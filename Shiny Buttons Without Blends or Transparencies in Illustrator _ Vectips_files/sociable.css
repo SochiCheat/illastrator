@@ -1,0 +1,65 @@
+div .sociable { margin: 50px 0 0;
+	background: #f1f1f2 url(images/comments_top_tile.jpg) repeat-x;
+	border-left: 1px solid #dcdbdb;
+	border-right: 1px solid #dcdbdb;
+	padding-left: 40px;
+}
+
+div.sociable ul li a {
+}
+
+span.sociable_tagline { position: relative;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	color: white;
+	float: right;
+}
+span.sociable_tagline span { display: none; width: 14em; }
+span.sociable_tagline:hover span {
+	position: absolute;
+	display: block;
+	top: -5em;
+	background: #ffe;
+	border: 1px solid #ccc;
+	color: black;
+	line-height: 1em;
+}
+
+.sociable span {
+	display: block;
+}
+.sociable ul {
+	display: inline;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.sociable li {
+	background: none;
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+}
+.sociable ul li:before { content: ""; }
+.sociable img {
+	float: none;
+	width: 39px;
+	height: 43px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.sociable-hovers {
+}
+.sociable-hovers:hover {
+}
+
+.sociable a:hover img {
+	margin: 0;
+	padding: 0;
+}
+
+.sociable a[href^="http:"] {
+	padding-right: 0px;
+	background: transparent;
+	text-decoration: none;
+}

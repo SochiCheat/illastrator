@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  
+  <title>Illustrator 101 - Opacity Masks | Shape Shed</title>
+  <!-- Meta -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <meta name="keywords" content="Illustrator 101, Illustrator">
+  <meta name="description" content="Opacity Masks are all over the web. 
+Here's a short tutorial on how they work in Illustrator and how you can 
+use them in your designs.">
+  <meta name="dc.date.created" content="2007-08-16">
+  <meta name="generator" content="Jekyll 0.5.7">
+  <meta name="author" content="George Ornbo">
+  <!-- Google Verification -->
+  <meta name="verify-v1" 
+content="vH7YjvNyhVphmJwkBU/VyV1oY2d5bJ9nMVKTuzb5rbw=">
+  <!-- Open ID -->
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://shapeshed.myopenid.com/">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="Shape Shed" 
+href="http://feeds.shapeshed.com/shapeshed">
+  <!-- CSS -->
+  <link rel="stylesheet" 
+href="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/screen.css"
+ type="text/css" media="screen">
+  <!--[if lte IE 6]>
+    <link rel="stylesheet" href="/stylesheets/ie6_and_below.css?04112010103751" type="text/css" media="screen" />
+  <![endif]-->
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="/stylesheets/ie7.css?04112010103751" type="text/css" media="screen" />
+  <![endif]-->
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="/stylesheets/ie8.css?04112010103751" type="text/css" media="screen" />
+  <![endif]-->
+  <!-- Fix IE for HTML5 http://remysharp.com/2009/01/07/html5-enabling-script/ -->
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  </head><body id="journal-page">
+
+<ul id="skip-links">
+	<li><a href="#content">Skip to main content</a></li>
+	<li><a href="#nav">Skip to navigation</a></li>
+</ul>
+<nav>
+  <p>On this site</p>
+  <ul>
+    <li id="home"><a href="http://shapeshed.com/">Home</a></li>
+    
+      <li id="portfolio"><a href="http://shapeshed.com/portfolio/">Portfolio</a>
+ <span>21</span></li>     
+    
+      <li id="journal"><a href="http://shapeshed.com/journal/">Journal</a>
+ <span>259</span></li>     
+    
+      <li id="talks"><a href="http://shapeshed.com/talks/">Talks</a> <span>1</span></li>
+     
+    
+    <li id="contact"><a href="http://shapeshed.com/contact/" title="Say 
+hello!">Contact</a></li>
+  </ul>
+
+  <p>Elsewhere</p>
+  <ul>
+    <li id="twitter"><a href="http://twitter.com/shapeshed">Twitter</a></li>
+    <li id="flickr"><a href="http://flickr.com/photos/dodland/">Flickr</a></li>
+    <li id="lastfm"><a href="http://www.last.fm/user/dodinator">Last.fm</a></li>
+    <li id="github"><a href="http://github.com/shapeshed">Github</a></li>
+    <li id="delicious"><a href="http://delicious.com/shapeshed">delicious</a></li>
+  </ul>
+</nav>
+<section id="content-wrapper">
+  <section id="content">
+    <article>
+  <aside id="post-meta">
+    <ul>
+      <li class="date">Thursday, 16 August  2007</li>
+    
+      <li><a href="http://shapeshed.com/tags/#illustrator-101" 
+class="tag">Illustrator 101</a></li>
+    
+      <li><a href="http://shapeshed.com/tags/#illustrator" class="tag">Illustrator</a></li>
+    
+    </ul>
+  </aside>
+  <h1 class="article">Illustrator 101 - Opacity Masks</h1>
+  <p class="summary">Opacity Masks are all over the web. Here's a short 
+tutorial on how they work in Illustrator and how you can use them in 
+your designs.</p>	  
+  <h2>Creating highlights</h2>
+
+<p>We are going to create a shape with a highlight using an opacity 
+mask. If you would like to work through the example there is <a 
+href="http://shapeshed.com/downloads/opacity_mask.ai">an illustrator 
+file</a> for this example.</p>
+
+<p><img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/with_mask.png"
+ title="Opacity Mask in Illustrator" alt="Opacity Mask in Illustrator"></p>
+
+<h2>What is an opacity mask?</h2>
+
+<p>An opacity mask allows you to mask off an area of an object and then 
+selectively let whatever is underneath show through. The word opacity is
+ a measure of how see-through an object is. The more opaque it is the 
+less see-through it is. So adding a mask means that you are allowing 
+some light through but not all. This is very useful for creating a 
+realistic light effect. In the real world light defines a shape by the 
+way it reflects off it. In Illustrator we can get very close to this by 
+using opacity masks.</p>
+
+<h2>The anatomy of an opacity mask</h2>
+
+<p>Think of an opacity mask like a sandwich. You first you have the base
+ shape. In this case it is a circle with a simple gradient and stroke 
+applied to it:</p>
+
+<p><img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/base_circle.png"
+ title="Base Circle" alt="Base Circle"></p>
+
+<p>Then there is the highlight that you want to show through. In this 
+case I've used the pathfinder panel to create this highlight shape but 
+you use the pen tool or anything.</p>
+
+<p><img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/highlight.png"
+ title="Highlight for Opacity Mask" alt="Highlight for Opacity Mask"></p>
+
+<p>Then comes a layer to control the opacity. I've copied the highlight 
+shape and filled it with a black to white gradient. When we apply the 
+opacity mask white will show through and black will be masked so I've 
+mimicked the light source coming from the top left.</p>
+
+<p><img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/gradient.png"
+ title="Gradient for Opacity Mask" alt="Gradient for Opacity Mask"></p>
+
+<p>Seen in 3D the layers stack up like this:</p>
+
+<p><img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/opacity_mask_3d.png"
+ title="3D diagram of Opacity Mask" alt="3D diagram of Opacity Mask"></p>
+
+<h2>Making the opacity mask</h2>
+
+<p>To make the opacity mask select both the highlight and gradient 
+layers. call up the the Transparency Panel (Window &gt; Transparency). 
+In the top right hand corner is a flyout menu where you can click Create
+ Opacity Mask.</p>
+
+<p><img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/make_opacity_mask.jpg"
+ title="Making the Opacity Mask" alt="Making the Opacity Mask"></p>
+
+<p>That's all there is to it. This is just one way you can create 
+realistic light effects in Illustrator.</p>
+
+<p><img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/with_mask.png"
+ title="Opacity Mask in Illustrator" alt="Opacity Mask in Illustrator"></p>
+
+<p>If you haven't yet got a copy of the illustrator file you can <a 
+href="http://shapeshed.com/downloads/opacity_mask.ai">get it here.</a></p>
+
+  <h3>Possibly related</h3>
+  <ul class="posts">
+    
+    <li><span>14 Aug 2007</span> » <a 
+href="http://shapeshed.com/journal/glossy_badges_in_illustrator">Glossy 
+badges in Illustrator</a></li>
+    
+    <li><span>30 Sep 2006</span> » <a 
+href="http://shapeshed.com/journal/photoshop_101_the_move_tool">Photoshop
+ 101 - The Move Tool</a></li>
+    
+    <li><span>17 Jan 2008</span> » <a 
+href="http://shapeshed.com/journal/realistic_highlights_in_illustrator">Realistic
+ highlights in Illustrator</a></li>
+    
+  </ul>
+</article>    
+  </section>
+  <section id="author">
+    <img 
+src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/avatar.jpg"
+ alt="Avatar">
+    <p>George Ornbo works at <a href="http://pebbleit.com/">pebble.it</a>
+ in London.<br>
+			I like HTML5, Macs and Ruby.<br>
+			Need help with a project? <a href="http://shapeshed.com/contact">Contact
+ me</a>.</p>
+  </section>
+</section>
+  <footer style="opacity: 0;">
+    <p>Designs © 2006-10 George Ornbo. Article content and talks are 
+licensed under a <a 
+href="http://creativecommons.org/licenses/by-sa/2.0/uk/">Attribution-Share
+ Alike 2.0 License</a></p>
+  </footer>		
+<!--[if IE 6]>
+<script type="text/javascript" src="http://shapeshed.github.com/ie6-notice/ie6notice-1.0.0.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/jquery-1.js"></script>
+<script type="text/javascript" src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/onDomLoad.js"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="Illustrator%20101%20-%20Opacity%20Masks%20_%20Shape%20Shed_files/ga.htm" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-324369-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body></html>
